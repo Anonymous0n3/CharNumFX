@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.charnumfx.HelloController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="14.0" layoutY="36.0" prefHeight="444.0" prefWidth="596.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="14.0" layoutY="15.0" text="Chose .txt file:" />
+      <Button layoutX="96.0" layoutY="11.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="25.0" prefWidth="118.0" text="Select File" />
+      <Label layoutX="155.0" layoutY="47.0" />
+      <TextField fx:id="word1" disable="true" layoutX="633.0" layoutY="52.0" />
+      <TextField fx:id="word2" disable="true" layoutX="633.0" layoutY="98.0" />
+      <TextField fx:id="word3" disable="true" layoutX="633.0" layoutY="148.0" />
+      <TextField fx:id="word4" disable="true" layoutX="633.0" layoutY="195.0" />
+      <TextField fx:id="word5" disable="true" layoutX="633.0" layoutY="242.0" />
+      <Label layoutX="660.0" layoutY="24.0" text="Most Used Words" />
+   </children>
+</AnchorPane>
